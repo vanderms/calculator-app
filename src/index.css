@@ -254,7 +254,7 @@
   cursor: pointer;
 }
 
-.keyboard-section .btn-base span {
+.keyboard-section button span {
   display: block;
   transform: translateY(0.0625rem);
 }
@@ -306,5 +306,20 @@
 
   .keyboard-section .grid-container {
     gap: 1.5rem;
+  }
+
+  .keyboard-section .btn-base {
+    font-size: 2.5rem;
+    line-height: 2.3125rem;
+  }
+
+  .keyboard-section .btn-secondary {
+    font-size: 1.75rem;
+    line-height: 1.625rem;
+  }
+
+  .keyboard-section .btn-primary {
+    font-size: 1.75rem;
+    line-height: 1.625rem;
   }
 }
