@@ -311,15 +311,18 @@
   .keyboard-section .btn-base {
     font-size: 2.5rem;
     line-height: 2.3125rem;
+    border-radius: 10px;
   }
 
   .keyboard-section .btn-secondary {
     font-size: 1.75rem;
     line-height: 1.625rem;
+    border-radius: 10px;
   }
 
   .keyboard-section .btn-primary {
     font-size: 1.75rem;
     line-height: 1.625rem;
+    border-radius: 10px;
   }
 }
