@@ -85,7 +85,7 @@ function App() {
               className="btn-primary"
               onClick={() => setExpression("")}
             >
-              <span>Del</span>
+              <span>DEL</span>
             </button>
 
             <button data-value="4" className="btn-base" onClick={appendToExpression}>
