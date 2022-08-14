@@ -254,6 +254,11 @@
   cursor: pointer;
 }
 
+.keyboard-section .btn-base span {
+  display: block;
+  transform: translateY(0.0625rem);
+}
+
 .keyboard-section .btn-base:hover {
   background-color: var(--clr-surface-button-hover);
 }

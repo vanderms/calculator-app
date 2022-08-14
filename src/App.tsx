@@ -72,59 +72,59 @@ function App() {
           <h2 className="sr-only">Calculator Keyboard</h2>
           <div className="grid-container">
             <button data-value="7" className="btn-base" onClick={appendToExpression}>
-              7
+              <span>7</span>
             </button>
             <button data-value="8" className="btn-base" onClick={appendToExpression}>
-              8
+              <span>8</span>
             </button>
             <button data-value="9" className="btn-base" onClick={appendToExpression}>
-              9
+              <span>9</span>
             </button>
             <button
               data-value="Del"
               className="btn-primary"
               onClick={() => setExpression("")}
             >
-              Del
+              <span>Del</span>
             </button>
 
             <button data-value="4" className="btn-base" onClick={appendToExpression}>
-              4
+              <span>4</span>
             </button>
             <button data-value="5" className="btn-base" onClick={appendToExpression}>
-              5
+              <span>5</span>
             </button>
             <button data-value="6" className="btn-base" onClick={appendToExpression}>
-              6
+              <span>6</span>
             </button>
             <button data-value=" + " className="btn-base" onClick={appendToExpression}>
-              +
+              <span>+</span>
             </button>
 
             <button data-value="1" className="btn-base" onClick={appendToExpression}>
-              1
+              <span>1</span>
             </button>
             <button data-value="2" className="btn-base" onClick={appendToExpression}>
-              2
+             <span>2</span>
             </button>
             <button data-value="3" className="btn-base" onClick={appendToExpression}>
-              3
+              <span>3</span>
             </button>
             <button data-value=" - " className="btn-base" onClick={appendToExpression}>
-              -
+             <span>-</span>
             </button>
 
             <button data-value="." className="btn-base" onClick={appendToExpression}>
-              .
+             <span>.</span>
             </button>
             <button data-value="0" className="btn-base" onClick={appendToExpression}>
-              0
+              <span>0</span>
             </button>
             <button data-value=" / " className="btn-base" onClick={appendToExpression}>
-              /
+              <span>/</span>
             </button>
             <button data-value=" * " className="btn-base" onClick={appendToExpression}>
-              x
+             <span>x</span>
             </button>
 
             <button
@@ -132,7 +132,7 @@ function App() {
               className="btn-primary two-columns"
               onClick={() => setExpression("")}
             >
-              RESET
+              <span>RESET</span>
             </button>
             <button
               data-value="="
@@ -147,7 +147,7 @@ function App() {
                 }
               }}
             >
-              =
+            <span>=</span>
             </button>
           </div>
         </section>
